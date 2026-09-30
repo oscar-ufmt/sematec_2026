@@ -1,0 +1,23 @@
+# 1. Bloqueia TUDO (incluindo pastas)
+*
+
+# 2. Abre exceção para as pastas (necessário para o Git entrar nelas)
+!*/
+
+# 3. PERMITE APENAS estas extensões (e nada mais)
+!*.vhdl
+!*.pdf
+!*.py
+!*.qsf
+!*.do
+!*.vht
+!*.bsf
+!*.tex
+!*.cls
+!.gitignore
+
+# Bloqueio específico para garantir que backups não passem
+*.bak*
+*.nav
+*.snm
+*.vho
