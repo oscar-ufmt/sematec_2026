@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/simulation/modelsim
+Esistemas_nuemricos_tb
+Z1 w1790774584
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd
+Z5 FE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd
+l0
+L30
+VS@3T8`NPYmT`3_aFGQXgQ1
+!s100 TzNb8SB7CiW;nKHk]QPFE1
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1790774588
+!i10b 1
+Z8 !s108 1790774588.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd|
+Z10 !s107 E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Asistemas_numericos_arch
+R2
+R3
+DEx4 work 21 sistemas_nuemricos_tb 0 22 S@3T8`NPYmT`3_aFGQXgQ1
+l43
+L32
+VjYoCL>DWRDQ^1[]lLOP8o1
+!s100 [oQWGJcjWWUcIa=zHO;gT0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esistemas_numericos
+Z13 w1790623997
+R2
+R3
+R0
+Z14 8E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd
+Z15 FE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd
+l0
+L4
+Vb2?l5NZWKcJoYSS_1cn_?0
+!s100 @cgjUVFIfefNhTj6e?X8M0
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd|
+Z17 !s107 E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 18 sistemas_numericos 0 22 b2?l5NZWKcJoYSS_1cn_?0
+l14
+L12
+Vm9<TZCO_:BACGUXnm0Q]03
+!s100 ]20`6I7MM4NRdd=;_i^SR3
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd
+source_file = 1, E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/db/exemplo01.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = exemplo01
+instance = comp, \LED[0]~output\, LED[0]~output, exemplo01, 1
+instance = comp, \LED[1]~output\, LED[1]~output, exemplo01, 1
+instance = comp, \SW[0]~input\, SW[0]~input, exemplo01, 1
+instance = comp, \SW[1]~input\, SW[1]~input, exemplo01, 1
+instance = comp, \LED~0\, LED~0, exemplo01, 1
+instance = comp, \SW[2]~input\, SW[2]~input, exemplo01, 1
+instance = comp, \SW[3]~input\, SW[3]~input, exemplo01, 1
+instance = comp, \LED~1\, LED~1, exemplo01, 1

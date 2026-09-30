@@ -1,0 +1,237 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/oscar/Documents/SoC/experimento_op_flutuante/simulation/modelsim
+Eaddsubfsm_v6
+Z1 w1739710699
+Z2 DPx4 work 7 fpupack 0 22 MKK2Z2gTIPVaD=C7TB6FD0
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z7 8/home/oscar/Documents/SoC/experimento_op_flutuante/addsubfsm_v6.vhd
+Z8 F/home/oscar/Documents/SoC/experimento_op_flutuante/addsubfsm_v6.vhd
+l0
+L17 1
+VA46oLBBG`b_iPgYcNh];]2
+!s100 EcMA0EeWmiAWgIBAEzhX92
+Z9 OV;C;2020.1;71
+31
+Z10 !s110 1790782580
+!i10b 1
+Z11 !s108 1790782580.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|/home/oscar/Documents/SoC/experimento_op_flutuante/addsubfsm_v6.vhd|
+Z13 !s107 /home/oscar/Documents/SoC/experimento_op_flutuante/addsubfsm_v6.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+Z16 DEx4 work 12 addsubfsm_v6 0 22 A46oLBBG`b_iPgYcNh];]2
+!i122 2
+l50
+L28 253
+V^PLL[S;l55Q[P?lYSWeR_0
+!s100 XebaLeGH]W<5=8FKomhHU2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Pfpupack
+R4
+R3
+R5
+R6
+!i122 0
+Z17 w1790781640
+R0
+Z18 8/home/oscar/Documents/SoC/experimento_op_flutuante/fpupack.vhd
+Z19 F/home/oscar/Documents/SoC/experimento_op_flutuante/fpupack.vhd
+l0
+L15 1
+VMKK2Z2gTIPVaD=C7TB6FD0
+!s100 F[jd48dX>C4WHlAXMeRIL1
+R9
+31
+R10
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|-93|-work|work|/home/oscar/Documents/SoC/experimento_op_flutuante/fpupack.vhd|
+Z21 !s107 /home/oscar/Documents/SoC/experimento_op_flutuante/fpupack.vhd|
+!i113 1
+R14
+R15
+Bbody
+R2
+R4
+R3
+R5
+R6
+!i122 0
+l0
+L69 1
+V_7=;AGA<eI@dazg88:_M?0
+!s100 z>LLO<i;SYS5JjeBLT4o83
+R9
+31
+R10
+!i10b 1
+R11
+R20
+R21
+!i113 1
+R14
+R15
+Emultiplierfsm_v2
+R1
+R2
+R3
+R4
+R5
+R6
+!i122 1
+R0
+Z22 8/home/oscar/Documents/SoC/experimento_op_flutuante/multiplierfsm_v2.vhd
+Z23 F/home/oscar/Documents/SoC/experimento_op_flutuante/multiplierfsm_v2.vhd
+l0
+L26 1
+V8NWD:ZAJdeT>I@mc;1KP<0
+!s100 ^Xd1Y:eXS=6d:7I_=zBDM2
+R9
+31
+R10
+!i10b 1
+R11
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/oscar/Documents/SoC/experimento_op_flutuante/multiplierfsm_v2.vhd|
+Z25 !s107 /home/oscar/Documents/SoC/experimento_op_flutuante/multiplierfsm_v2.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+Z26 DEx4 work 16 multiplierfsm_v2 0 22 8NWD:ZAJdeT>I@mc;1KP<0
+!i122 1
+l45
+L36 103
+Vbabk5a7<AWXkzJ_dAhzQ@1
+!s100 hFk3kg7>CgYnzNOcalZGI2
+R9
+31
+R10
+!i10b 1
+R11
+R24
+R25
+!i113 1
+R14
+R15
+Eneuron_controller
+Z27 w1790782229
+R5
+R6
+!i122 3
+R0
+Z28 8/home/oscar/Documents/SoC/experimento_op_flutuante/neuron_controller.vhd
+Z29 F/home/oscar/Documents/SoC/experimento_op_flutuante/neuron_controller.vhd
+l0
+L4 1
+V@dKbT@HFV_^_MH@KBnSE?0
+!s100 LlZ53QcHc@HAC^7EKj;Xb1
+R9
+31
+R10
+!i10b 1
+R11
+Z30 !s90 -reportprogress|300|-93|-work|work|/home/oscar/Documents/SoC/experimento_op_flutuante/neuron_controller.vhd|
+Z31 !s107 /home/oscar/Documents/SoC/experimento_op_flutuante/neuron_controller.vhd|
+!i113 1
+R14
+R15
+Abehavioral
+R16
+R2
+R3
+R4
+R26
+R5
+R6
+DEx4 work 17 neuron_controller 0 22 @dKbT@HFV_^_MH@KBnSE?0
+!i122 3
+l34
+L22 81
+VWLIG:bJRA?CVdKUW=eFLd3
+!s100 Je`JZ]>DkZzc17I=EnLYm2
+R9
+31
+R10
+!i10b 1
+R11
+R30
+R31
+!i113 1
+R14
+R15
+Eneuron_controller_vhd_tst
+Z32 w1790782466
+R5
+R6
+!i122 4
+R0
+Z33 8/home/oscar/Documents/SoC/experimento_op_flutuante/neuron_controller_vhd_tst.vhd
+Z34 F/home/oscar/Documents/SoC/experimento_op_flutuante/neuron_controller_vhd_tst.vhd
+l0
+L31 1
+VK88ezg5JVj8E1M=F>8aFT2
+!s100 U?=>a`>=l7OKfMjZo4V:@0
+R9
+31
+R10
+!i10b 1
+R11
+Z35 !s90 -reportprogress|300|-93|-work|work|/home/oscar/Documents/SoC/experimento_op_flutuante/neuron_controller_vhd_tst.vhd|
+!s107 /home/oscar/Documents/SoC/experimento_op_flutuante/neuron_controller_vhd_tst.vhd|
+!i113 1
+R14
+R15
+Aneuron_controller_arch
+R5
+R6
+DEx4 work 25 neuron_controller_vhd_tst 0 22 K88ezg5JVj8E1M=F>8aFT2
+!i122 4
+l63
+L34 100
+Vo3;cVToSoL<^Tg;hFBcXB0
+!s100 c`^AD6KD[PU@zT:z4g5b:2
+R9
+31
+R10
+!i10b 1
+R11
+R35
+Z36 !s107 /home/oscar/Documents/SoC/experimento_op_flutuante/neuron_controller_vhd_tst.vhd|
+!i113 1
+R14
+R15

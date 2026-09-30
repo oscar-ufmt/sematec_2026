@@ -1,0 +1,20 @@
+\frametitle{Passo 3: Testbench com Valores Estratégicos}
+\justifying
+  No Testbench, vamos injetar valores hexadecimais que mudam drasticamente de sentido dependendo do \textit{Radix}.
+
+%\begin{lstlisting}[language=VHDL, basicstyle=\tiny]
+%-- No processo de estimulos do Testbench
+%-- Exemplo: Valor que representa 12.5 em Float IEEE-754
+%dado_A <= x"41480000";
+%
+%-- Exemplo: Valor que parece negativo em Signed
+%dado_B <= x"FFFFFFFF";
+%
+%wait for 100 ns;
+%
+%dado_A <= x"C1480000"; -- -12.5 em Float
+%dado_B <= x"0000000A"; -- 10 em Decimal
+%\end{lstlisting}
+       \begin{figure}
+    \includegraphics[width=0.3 \textwidth]{Figs/tut_fig20.png}
+  \end{figure}

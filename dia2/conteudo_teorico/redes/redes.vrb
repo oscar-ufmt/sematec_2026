@@ -1,0 +1,24 @@
+\frametitle{Experimento 3: VHDL Packages e Gestão de Pesos}
+\justifying
+	Para garantir a modularidade, os pesos e tipos de dados foram centralizados em um \textbf{VHDL Package}. Isso facilita a atualização dos parâmetros treinados sem alterar a arquitetura dos neurônios.
+	
+	\begin{itemize}
+		\item \textbf{Definição de Tipos:} Criação de \textit{subtypes} para padronizar a largura de banda (ex: 32 bits).
+		\item \textbf{Constantes Globais:} Armazenamento dos pesos e \textit{bias} extraídos do PyTorch.
+	\end{itemize}
+	
+	\begin{exampleblock}{Exemplo de Estrutura do Package}
+		\begin{lstlisting}[language=VHDL, basicstyle=\tiny]
+			package fpupack is
+			-- Definicao de tipo para facilitar a leitura
+			subtype fp32 is std_logic_vector(31 downto 0);
+			
+			-- Pesos treinados (Exemplo da Camada Oculta)
+			constant C_W000 : fp32 := x"C18544DC"; -- Peso w00
+			constant C_W001 : fp32 := x"C165705A"; -- Peso w01
+			constant C_B00  : fp32 := x"4052262C"; -- Bias b00
+			
+			-- Facilita a expansao para novos neuronios
+			end package;
+		\end{lstlisting}
+	\end{exampleblock}

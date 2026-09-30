@@ -1,0 +1,332 @@
+# do rede_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying /home/oscar/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {rede.vho}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:35:11 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work rede.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity Top_Wrapper
+# -- Compiling architecture structure of Top_Wrapper
+# End time: 15:35:12 on Sep 30,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/oscar/Documents/SoC/experimento_final/tb_Top_Wrapper.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:35:12 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work /home/oscar/Documents/SoC/experimento_final/tb_Top_Wrapper.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_Top_Wrapper
+# -- Compiling architecture sim of tb_Top_Wrapper
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Loading entity Top_Wrapper
+# -- Loading package ENV
+# ** Warning: /home/oscar/Documents/SoC/experimento_final/tb_Top_Wrapper.vhd(71): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# End time: 15:35:12 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera -L cycloneive -L gate_work -L work -voptargs="+acc"  tb_Top_Wrapper
+# vsim -t 1ps -L altera -L cycloneive -L gate_work -L work -voptargs=""+acc"" tb_Top_Wrapper 
+# Start time: 15:35:12 on Sep 30,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading std.env(body)
+# Loading work.tb_top_wrapper(sim)
+# Loading work.top_wrapper(structure)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_clkctrl(vital_clkctrl)
+# Loading cycloneive.cycloneive_ena_reg(behave)
+# Loading ieee.std_logic_unsigned(body)
+# Loading cycloneive.cycloneive_mac_mult(vital_cycloneive_mac_mult)
+# Loading cycloneive.cycloneive_mac_data_reg(vital_cycloneive_mac_data_reg)
+# Loading cycloneive.cycloneive_mac_sign_reg(cycloneive_mac_sign_reg)
+# Loading cycloneive.cycloneive_mac_mult_internal(vital_cycloneive_mac_mult_internal)
+# Loading cycloneive.cycloneive_mac_out(vital_cycloneive_mac_out)
+# Loading cycloneive.cycloneive_jtag(architecture_jtag)
+# Loading cycloneive.cycloneive_ram_block(block_arch)
+# Loading cycloneive.cycloneive_ram_register(reg_arch)
+# Loading cycloneive.cycloneive_ram_pulse_generator(pgen_arch)
+# ** Warning: Design size of 810053 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_top_wrapper/dut/altera_internal_jtag/tdo has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_top_wrapper/dut/altera_internal_jtag/tmsutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_top_wrapper/dut/altera_internal_jtag/tckutap has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /tb_top_wrapper/dut/altera_internal_jtag/tdiutap has no driver.
+# This port will contribute value (U) to the signal network.
+# 
+# add wave *
+# Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: oscar  Hostname: oscar-Ubuntu-22  ProcessID: 129945
+#           Attempting to use alternate WLF file "./wlftUdOiKa".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftUdOiKa
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 4000 ns
+# ** Note: Iniciando Reset...
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mult|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_1|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_0_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult7\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult5\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult3\/mac_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 5  Instance: /tb_top_wrapper/dut/\minha_rede_mlp|uut_1_0|mysig|uut1|Mult0|auto_generated|mac_mult1\/mac_multiply
+# ** Note: Testando XOR(0,0)...
+#    Time: 200 ns  Iteration: 0  Instance: /tb_top_wrapper
+# ** Note: Fim do calculo XOR(0,0). Verifique o LEDR(0).
+#    Time: 1210 ns  Iteration: 19  Instance: /tb_top_wrapper
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 15:40:12 on Sep 30,2026, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 113

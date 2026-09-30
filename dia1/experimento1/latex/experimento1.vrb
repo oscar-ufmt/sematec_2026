@@ -1,0 +1,16 @@
+\frametitle{Passo 5: Escrita dos Estímulos}
+No arquivo de testbench, identifique a seção de \textit{stimulus} e adicione o comportamento das chaves:
+	
+	\begin{lstlisting}[language=VHDL, basicstyle=\tiny]
+		-- Exemplo de estimulos no Testbench
+		SW <= "0000",
+		"0001" after 35 ns,
+		"0010" after 55 ns,
+		"0011" after 75 ns,
+		"0101" after 105 ns,
+		"1111" after 145 ns;
+	\end{lstlisting}
+	
+	\begin{itemize}
+		\item \textbf{DICA:} Mude o nome da instância (DUT) para facilitar a identificação.
+	\end{itemize}

@@ -1,0 +1,170 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/simulation/modelsim
+Econtador_4bits
+Z1 w1790698991
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_4bits.vhd
+Z6 FE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_4bits.vhd
+l0
+L5
+V0^JDNm>U]fAg[OLTadX;S1
+!s100 Y0beo9cPc2`[?ejYJEX[=0
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1790701422
+!i10b 1
+Z9 !s108 1790701422.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_4bits.vhd|
+Z11 !s107 E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_4bits.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 14 contador_4bits 0 22 0^JDNm>U]fAg[OLTadX;S1
+l16
+L14
+V3=7_0AQ_ZhDV0j]8R:@oV2
+!s100 W^?_G9MMkzT74kgoz`J1:2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Econtador_clk
+Z14 w1790701418
+R2
+R3
+R4
+R0
+Z15 8E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_clk.vhd
+Z16 FE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_clk.vhd
+l0
+L5
+VmC_>8;edTo4SGWdi?F^=I0
+!s100 5o]h279[NzYQTW7LoMBDI1
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_clk.vhd|
+Z18 !s107 E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_clk.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 12 contador_clk 0 22 mC_>8;edTo4SGWdi?F^=I0
+l16
+L14
+VnTCzLJe>2aR^FIRl?n=_<1
+!s100 VHI9YmJXdzSZMD0lSXdnk1
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Emain
+Z19 w1790697950
+R3
+R4
+R0
+Z20 8E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main.vhd
+Z21 FE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main.vhd
+l0
+L24
+Vhka?O0EjB]VX2lE^K<>]a0
+!s100 [aJ_2Nem0KhWEeN?0;ddf0
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main.vhd|
+Z23 !s107 E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R3
+R4
+DEx4 work 4 main 0 22 hka?O0EjB]VX2lE^K<>]a0
+l52
+L33
+VoUzA4mzB1[=<Nj;`@IUm@0
+!s100 :6`=4h@d9Wf1SMg2;ZmZ32
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Emain_tb
+Z24 w1790701300
+R3
+R4
+R0
+Z25 8E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd
+Z26 FE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd
+l0
+L30
+Vzk8DZG]]RhBY35oo^=6n;2
+!s100 Bik]70>EU9;ff=0L]@^zC3
+R7
+31
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-93|-work|work|E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd|
+Z28 !s107 E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd|
+!i113 1
+R12
+R13
+Amain_arch
+R3
+R4
+DEx4 work 7 main_tb 0 22 zk8DZG]]RhBY35oo^=6n;2
+l50
+L32
+VJ2MaSCjCVH18j2OI^>nzB0
+!s100 DQ8=fMfl?HQXH8@7VKOzb1
+R7
+31
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13

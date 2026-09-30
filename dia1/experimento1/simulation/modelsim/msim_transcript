@@ -1,0 +1,704 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do exemplo01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:31:04 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01
+# -- Compiling architecture bdf_type of exemplo01
+# End time: 13:31:04 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:31:04 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01_tb
+# -- Compiling architecture exemplo01_arch of exemplo01_tb
+# End time: 13:31:04 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  exemplo01_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" exemplo01_tb 
+# Start time: 13:31:04 on Sep 28,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exemplo01_tb(exemplo01_arch)
+# Loading work.exemplo01(bdf_type)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ps
+do exemplo01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:32:35 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01
+# -- Compiling architecture bdf_type of exemplo01
+# End time: 13:32:35 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:32:35 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01_tb
+# -- Compiling architecture exemplo01_arch of exemplo01_tb
+# End time: 13:32:35 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  exemplo01_tb
+# End time: 13:32:36 on Sep 28,2026, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" exemplo01_tb 
+# Start time: 13:32:36 on Sep 28,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exemplo01_tb(exemplo01_arch)
+# Loading work.exemplo01(bdf_type)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ps
+# ** Fatal: (vsim-3483) Delay in signal assignment is not ascending.
+#    Time: 0 ps  Iteration: 0  Process: /exemplo01_tb/line__58 File: E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd Line: 61
+# Fatal error in Architecture exemplo01_arch at E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd line 61
+# 
+# HDL call sequence:
+# Stopped at E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 61 Architecture exemplo01_arch
+# 
+do exemplo01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:34:43 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01
+# -- Compiling architecture bdf_type of exemplo01
+# End time: 13:34:43 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:34:43 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01_tb
+# -- Compiling architecture exemplo01_arch of exemplo01_tb
+# End time: 13:34:43 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  exemplo01_tb
+# End time: 13:34:44 on Sep 28,2026, Elapsed time: 0:02:08
+# Errors: 2, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" exemplo01_tb 
+# Start time: 13:34:44 on Sep 28,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exemplo01_tb(exemplo01_arch)
+# Loading work.exemplo01(bdf_type)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ps
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/simulation/modelsim/wave.do
+do exemplo01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:18 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01
+# -- Compiling architecture bdf_type of exemplo01
+# End time: 13:39:18 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:18 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01_tb
+# -- Compiling architecture exemplo01_arch of exemplo01_tb
+# End time: 13:39:18 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  exemplo01_tb
+# End time: 13:39:19 on Sep 28,2026, Elapsed time: 0:04:35
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" exemplo01_tb 
+# Start time: 13:39:19 on Sep 28,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exemplo01_tb(exemplo01_arch)
+# Loading work.exemplo01(bdf_type)
+# 
+# add wave.do
+# ** Error: bad option "wave.do": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+# Error in macro ./exemplo01_run_msim_rtl_vhdl.do line 14
+# ** Error: bad option "wave.do": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+#     while executing
+# "error $msg"
+#     (procedure "::add::_unknown_" line 21)
+#     invoked from within
+# "::add::_unknown_ ::add wave.do"
+#     (ensemble unknown subcommand handler)
+#     invoked from within
+# "add wave.do"
+do exemplo01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:36 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01
+# -- Compiling architecture bdf_type of exemplo01
+# End time: 13:39:36 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:36 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01_tb
+# -- Compiling architecture exemplo01_arch of exemplo01_tb
+# End time: 13:39:36 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  exemplo01_tb
+# End time: 13:39:37 on Sep 28,2026, Elapsed time: 0:00:18
+# Errors: 2, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" exemplo01_tb 
+# Start time: 13:39:37 on Sep 28,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exemplo01_tb(exemplo01_arch)
+# Loading work.exemplo01(bdf_type)
+# 
+# add wave.do
+# ** Error: bad option "wave.do": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+# Error in macro ./exemplo01_run_msim_rtl_vhdl.do line 14
+# ** Error: bad option "wave.do": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+#     while executing
+# "error $msg"
+#     (procedure "::add::_unknown_" line 21)
+#     invoked from within
+# "::add::_unknown_ ::add wave.do"
+#     (ensemble unknown subcommand handler)
+#     invoked from within
+# "add wave.do"
+do exemplo01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:55 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01
+# -- Compiling architecture bdf_type of exemplo01
+# End time: 13:39:55 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:39:55 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01_tb
+# -- Compiling architecture exemplo01_arch of exemplo01_tb
+# End time: 13:39:55 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  exemplo01_tb
+# End time: 13:39:56 on Sep 28,2026, Elapsed time: 0:00:19
+# Errors: 2, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" exemplo01_tb 
+# Start time: 13:39:56 on Sep 28,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exemplo01_tb(exemplo01_arch)
+# Loading work.exemplo01(bdf_type)
+# 
+# add wave.do
+# ** Error: bad option "wave.do": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+# Error in macro ./exemplo01_run_msim_rtl_vhdl.do line 14
+# ** Error: bad option "wave.do": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+#     while executing
+# "error $msg"
+#     (procedure "::add::_unknown_" line 21)
+#     invoked from within
+# "::add::_unknown_ ::add wave.do"
+#     (ensemble unknown subcommand handler)
+#     invoked from within
+# "add wave.do"
+do exemplo01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:41 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01
+# -- Compiling architecture bdf_type of exemplo01
+# End time: 13:40:41 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:40:41 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01_tb
+# -- Compiling architecture exemplo01_arch of exemplo01_tb
+# End time: 13:40:41 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  exemplo01_tb
+# End time: 13:40:42 on Sep 28,2026, Elapsed time: 0:00:46
+# Errors: 2, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" exemplo01_tb 
+# Start time: 13:40:42 on Sep 28,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exemplo01_tb(exemplo01_arch)
+# Loading work.exemplo01(bdf_type)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /exemplo01_tb/LED
+# add wave -noupdate /exemplo01_tb/SW
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {301 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {210 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+do exemplo01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:43 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01
+# -- Compiling architecture bdf_type of exemplo01
+# End time: 13:41:43 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:41:43 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01_tb
+# -- Compiling architecture exemplo01_arch of exemplo01_tb
+# End time: 13:41:43 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  exemplo01_tb
+# End time: 13:41:44 on Sep 28,2026, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" exemplo01_tb 
+# Start time: 13:41:44 on Sep 28,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exemplo01_tb(exemplo01_arch)
+# Loading work.exemplo01(bdf_type)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /exemplo01_tb/LED
+# add wave -noupdate /exemplo01_tb/SW
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {301 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {210 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+do exemplo01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:25 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01
+# -- Compiling architecture bdf_type of exemplo01
+# End time: 13:42:26 on Sep 28,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:42:26 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01_tb
+# -- Compiling architecture exemplo01_arch of exemplo01_tb
+# End time: 13:42:26 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  exemplo01_tb
+# End time: 13:42:26 on Sep 28,2026, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" exemplo01_tb 
+# Start time: 13:42:26 on Sep 28,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exemplo01_tb(exemplo01_arch)
+# Loading work.exemplo01(bdf_type)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /exemplo01_tb/LED
+# add wave -noupdate /exemplo01_tb/SW
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {301 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {210 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+do exemplo01_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:53 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01
+# -- Compiling architecture bdf_type of exemplo01
+# End time: 13:43:53 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:43:53 on Sep 28,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity exemplo01_tb
+# -- Compiling architecture exemplo01_arch of exemplo01_tb
+# End time: 13:43:53 on Sep 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  exemplo01_tb
+# End time: 13:43:54 on Sep 28,2026, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" exemplo01_tb 
+# Start time: 13:43:54 on Sep 28,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.exemplo01_tb(exemplo01_arch)
+# Loading work.exemplo01(bdf_type)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /exemplo01_tb/LED
+# add wave -noupdate /exemplo01_tb/SW
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {301 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {0 ps} {210 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# End time: 15:40:10 on Sep 28,2026, Elapsed time: 1:56:16
+# Errors: 0, Warnings: 0

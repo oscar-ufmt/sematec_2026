@@ -1,0 +1,347 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do sistemas_numericos_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:17:25 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sistemas_numericos
+# -- Compiling architecture rtl of sistemas_numericos
+# End time: 09:17:25 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:17:25 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sistemas_nuemricos_tb
+# -- Compiling architecture sistemas_numericos_arch of sistemas_nuemricos_tb
+# End time: 09:17:25 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  sistemas_nuemricos_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" sistemas_nuemricos_tb 
+# Start time: 09:17:26 on Sep 30,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sistemas_nuemricos_tb(sistemas_numericos_arch)
+# Loading work.sistemas_numericos(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/simulation/modelsim/wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/simulation/modelsim/wave.do
+do sistemas_numericos_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:19:06 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sistemas_numericos
+# -- Compiling architecture rtl of sistemas_numericos
+# End time: 09:19:06 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:19:06 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sistemas_nuemricos_tb
+# -- Compiling architecture sistemas_numericos_arch of sistemas_nuemricos_tb
+# End time: 09:19:06 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  sistemas_nuemricos_tb
+# End time: 09:19:07 on Sep 30,2026, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" sistemas_nuemricos_tb 
+# Start time: 09:19:07 on Sep 30,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sistemas_nuemricos_tb(sistemas_numericos_arch)
+# Loading work.sistemas_numericos(rtl)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -radix float32 /sistemas_nuemricos_tb/dado_A
+# add wave -noupdate -radix float32 /sistemas_nuemricos_tb/dado_B
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {199193 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {210 ns}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+do sistemas_numericos_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:20:45 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sistemas_numericos
+# -- Compiling architecture rtl of sistemas_numericos
+# End time: 09:20:45 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:20:45 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sistemas_nuemricos_tb
+# -- Compiling architecture sistemas_numericos_arch of sistemas_nuemricos_tb
+# End time: 09:20:45 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  sistemas_nuemricos_tb
+# End time: 09:20:46 on Sep 30,2026, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" sistemas_nuemricos_tb 
+# Start time: 09:20:46 on Sep 30,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sistemas_nuemricos_tb(sistemas_numericos_arch)
+# Loading work.sistemas_numericos(rtl)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -radix float32 /sistemas_nuemricos_tb/dado_A
+# add wave -noupdate -radix float32 /sistemas_nuemricos_tb/dado_B
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {199193 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {210 ns}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+do sistemas_numericos_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:21:39 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sistemas_numericos
+# -- Compiling architecture rtl of sistemas_numericos
+# End time: 09:21:39 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:21:39 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sistemas_nuemricos_tb
+# -- Compiling architecture sistemas_numericos_arch of sistemas_nuemricos_tb
+# End time: 09:21:39 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  sistemas_nuemricos_tb
+# End time: 09:21:40 on Sep 30,2026, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" sistemas_nuemricos_tb 
+# Start time: 09:21:40 on Sep 30,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sistemas_nuemricos_tb(sistemas_numericos_arch)
+# Loading work.sistemas_numericos(rtl)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -radix float32 /sistemas_nuemricos_tb/dado_A
+# add wave -noupdate -radix float32 /sistemas_nuemricos_tb/dado_B
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {199193 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {210 ns}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+do sistemas_numericos_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:23:08 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_numericos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sistemas_numericos
+# -- Compiling architecture rtl of sistemas_numericos
+# End time: 09:23:08 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:23:08 on Sep 30,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Experimento_ponto_flutuante/sistemas_nuemricos_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sistemas_nuemricos_tb
+# -- Compiling architecture sistemas_numericos_arch of sistemas_nuemricos_tb
+# End time: 09:23:08 on Sep 30,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  sistemas_nuemricos_tb
+# End time: 09:23:09 on Sep 30,2026, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs=""+acc"" sistemas_nuemricos_tb 
+# Start time: 09:23:09 on Sep 30,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sistemas_nuemricos_tb(sistemas_numericos_arch)
+# Loading work.sistemas_numericos(rtl)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate -radix float32 /sistemas_nuemricos_tb/dado_A
+# add wave -noupdate -radix float32 /sistemas_nuemricos_tb/dado_B
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {199193 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {210 ns}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# End time: 09:29:28 on Sep 30,2026, Elapsed time: 0:06:19
+# Errors: 0, Warnings: 0

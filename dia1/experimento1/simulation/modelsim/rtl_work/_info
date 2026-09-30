@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/simulation/modelsim
+Eexemplo01
+Z1 w1790614974
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd
+Z5 FE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd
+l0
+L24
+VoSiTS4TPeo9^iaWei_mER3
+!s100 <:2>m223<2G22X^V5o;K30
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1790617433
+!i10b 1
+Z8 !s108 1790617433.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd|
+Z10 !s107 E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abdf_type
+R2
+R3
+DEx4 work 9 exemplo01 0 22 oSiTS4TPeo9^iaWei_mER3
+l36
+L32
+VO?@^LkC^AT3N2HU?<b5;>0
+!s100 JGR=cI83o0Pih:8X]9oF90
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eexemplo01_tb
+Z13 w1790617420
+R2
+R3
+R0
+Z14 8E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd
+Z15 FE:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd
+l0
+L30
+VcgJoHjlAeB92G7fP2z9JC1
+!s100 C:bhV[:9U>6G3d?8X39R^3
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd|
+Z17 !s107 E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Projeto_final_altera/exemplo01_tb.vhd|
+!i113 1
+R11
+R12
+Aexemplo01_arch
+R2
+R3
+DEx4 work 12 exemplo01_tb 0 22 cgJoHjlAeB92G7fP2z9JC1
+l43
+L32
+VARW^e>@k0loJzUjib<B0U0
+!s100 D^lF]3MjWAAAWb6KZ5cG@1
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

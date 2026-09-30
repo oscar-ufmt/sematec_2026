@@ -1,0 +1,22 @@
+\frametitle{Testbench do Contador}
+\justifying
+	O testbench apenas precisa gerar o clock e dar um pulso inicial no reset. O contador fará o resto do trabalho.
+	
+	\begin{lstlisting}[language=VHDL, basicstyle=\tiny]
+		-- No processo de estimulo
+		stim_proc: process
+		begin
+		rst <= '0';
+		wait for 45 ns; -- Pulso de reset inicial
+		rst <= '1';
+		
+		-- Deixamos o clock rodar por um longo tempo
+		wait for 500 ns;
+		
+		wait;
+		end process;
+	\end{lstlisting}
+	
+	\begin{itemize}
+		\item \textbf{Observação}: O sinal de clock é o mesmo processo do exemplo anterior (período de 20ns).
+	\end{itemize}

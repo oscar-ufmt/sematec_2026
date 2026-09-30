@@ -1,0 +1,245 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do contador_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:58 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity main
+# -- Compiling architecture bdf_type of main
+# End time: 13:00:58 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_clk.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:58 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_clk.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador_clk
+# -- Compiling architecture rtl of contador_clk
+# End time: 13:00:58 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_4bits.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:58 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_4bits.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador_4bits
+# -- Compiling architecture rtl of contador_4bits
+# End time: 13:00:58 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:00:58 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity main_tb
+# -- Compiling architecture main_arch of main_tb
+# ** Error: E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd(87): near "PROCESS": (vcom-1576) expecting ';'.
+# End time: 13:00:58 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/17.0/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./contador_run_msim_rtl_vhdl.do line 12
+# C:/intelFPGA/17.0/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd}"
+do contador_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:43 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity main
+# -- Compiling architecture bdf_type of main
+# End time: 13:01:43 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_clk.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:43 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_clk.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador_clk
+# -- Compiling architecture rtl of contador_clk
+# End time: 13:01:43 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_4bits.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:43 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_4bits.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador_4bits
+# -- Compiling architecture rtl of contador_4bits
+# End time: 13:01:43 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:43 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity main_tb
+# -- Compiling architecture main_arch of main_tb
+# End time: 13:01:43 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  main_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" main_tb 
+# Start time: 13:01:43 on Sep 29,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.main_tb(main_arch)
+# Loading work.main(bdf_type)
+# Loading ieee.numeric_std(body)
+# Loading work.contador_4bits(rtl)
+# Loading work.contador_clk(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/simulation/modelsim/wave.do
+do contador_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:42 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity main
+# -- Compiling architecture bdf_type of main
+# End time: 13:03:42 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_clk.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:42 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_clk.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador_clk
+# -- Compiling architecture rtl of contador_clk
+# End time: 13:03:42 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_4bits.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:42 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/contador_4bits.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador_4bits
+# -- Compiling architecture rtl of contador_4bits
+# End time: 13:03:42 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:03:42 on Sep 29,2026
+# vcom -reportprogress 300 -93 -work work E:/UFMT/2026_II/SEMATEC/Projeto_quartus/Contador/main_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity main_tb
+# -- Compiling architecture main_arch of main_tb
+# End time: 13:03:42 on Sep 29,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  main_tb
+# End time: 13:03:43 on Sep 29,2026, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" main_tb 
+# Start time: 13:03:43 on Sep 29,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.main_tb(main_arch)
+# Loading work.main(bdf_type)
+# Loading ieee.numeric_std(body)
+# Loading work.contador_4bits(rtl)
+# Loading work.contador_clk(rtl)
+# 
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /main_tb/clk
+# add wave -noupdate /main_tb/q_out
+# add wave -noupdate /main_tb/rst
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {38542 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {1050 ns}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+# End time: 16:03:07 on Sep 29,2026, Elapsed time: 2:59:24
+# Errors: 0, Warnings: 0

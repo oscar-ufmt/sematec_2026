@@ -1,0 +1,115 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/oscar/Documents/SoC/experimento_final/simulation/modelsim
+Etb_top_wrapper
+Z1 w1790796418
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8/home/oscar/Documents/SoC/experimento_final/tb_Top_Wrapper.vhd
+Z6 F/home/oscar/Documents/SoC/experimento_final/tb_Top_Wrapper.vhd
+l0
+L5 1
+VIn1b?HiSWk640L@`YQ`h[1
+!s100 NUaJnhAbQZ73SfbIiATmc3
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1790796912
+!i10b 1
+Z9 !s108 1790796912.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/oscar/Documents/SoC/experimento_final/tb_Top_Wrapper.vhd|
+!s107 /home/oscar/Documents/SoC/experimento_final/tb_Top_Wrapper.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Asim
+DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z13 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 76OUjOFMM1Jzd<9936DA;3
+Z14 DPx10 cycloneive 21 cycloneive_components 0 22 dANj__M<MaN@;H9Tkm=iP1
+Z15 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z16 DPx6 altera 11 dffeas_pack 0 22 H5F:RRfLz82T3`4>@b7mS3
+Z17 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z18 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
+Z19 DEx4 work 11 top_wrapper 0 22 QcY83TJ<c;8D:nO7Ed0hE0
+R2
+R3
+R4
+DEx4 work 14 tb_top_wrapper 0 22 In1b?HiSWk640L@`YQ`h[1
+!i122 1
+l19
+L8 67
+VLS>00mG`h86N1KDo8^^>e2
+!s100 :9=^^CkL;6WM5kD:^RfR22
+R7
+31
+R8
+!i10b 1
+R9
+R10
+Z20 !s107 /home/oscar/Documents/SoC/experimento_final/tb_Top_Wrapper.vhd|
+!i113 1
+R11
+R12
+Etop_wrapper
+Z21 w1790796883
+R13
+R14
+R15
+R16
+R17
+R3
+R4
+R18
+!i122 0
+R0
+Z22 8rede.vho
+Z23 Frede.vho
+l0
+L37 1
+VQcY83TJ<c;8D:nO7Ed0hE0
+!s100 nlLg`k1RPVOogQ<PbO]Qo1
+R7
+31
+!s110 1790796911
+!i10b 1
+Z24 !s108 1790796911.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|rede.vho|
+Z26 !s107 rede.vho|
+!i113 1
+R11
+R12
+Astructure
+R13
+R14
+R15
+R16
+R17
+R3
+R4
+R18
+R19
+!i122 0
+l8008
+L64 126967
+VV6159:^2gPi3iMg95K<l`0
+!s100 f?zJQG`4N]aneeagGG2I@3
+R7
+31
+R8
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12

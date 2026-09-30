@@ -1,0 +1,17 @@
+# Quartus temporary files
+db/
+incremental_db/
+output_files/
+*.bak
+*.orig
+
+# Python
+__pycache__/
+*.pyc
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz

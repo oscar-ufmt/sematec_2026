@@ -1,0 +1,24 @@
+\frametitle{O Testbench: Estímulos de Dados}
+\justifying
+Para testar, mudamos o valor de \textbf{D} e observamos que \textbf{Q} só muda exatamente na borda do clock.
+
+\begin{lstlisting}[language=VHDL, basicstyle=\tiny]
+	-- No processo de estimulo (stim_proc)
+	stim_proc: process
+	begin
+	rst <= '1'; wait for 50 ns;
+	rst <= '0';
+	
+	d <= '1'; wait for 40 ns;
+	d <= '0'; wait for 40 ns;
+	d <= '1'; wait for 15 ns; -- Mudanca rápida
+	d <= '0'; wait for 5 ns;
+	
+	wait;
+	end process;
+\end{lstlisting}
+
+% \begin{figure}
+	%\includegraphics[width=0.6\textwidth]{wave_ff_result.png}
+	%\caption{O comportamento esperado: Q "atrasado" até a próxima borda.}
+	%\end{figure}
