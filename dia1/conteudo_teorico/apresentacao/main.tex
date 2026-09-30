@@ -14,6 +14,10 @@
 \usepackage[T1]{fontenc}          % Codificação de saída
 \usepackage[portuguese]{babel}   % Idioma
 \usepackage{XCharter}             % Fonte principal
+
+\usepackage{qrcode}
+
+
 \AtBeginDocument{\fontsize{12}{12}\selectfont}
 
 %\usepackage{geometry}
@@ -144,6 +148,22 @@
 	\end{itemize}
 \end{frame}
 %----------------------------------------------------------------------------------------
+
+
+
+\begin{frame}{Acesse o Repositório do Projeto}
+	\centering
+	\textbf{Escaneie o código abaixo para acessar o código no GitHub:} \\
+	\vspace{0.5cm}
+	
+	% Gera o QR Code linkando para o seu repositório
+	\qrcode[height=4cm]{https://github.com/oscar-ufmt/sematec_2026}
+	
+	\vspace{0.5cm}
+	\url{https://github.com/oscar-ufmt/sematec_2026}
+\end{frame}
+
+
 \section{Ementa do minicurso}
 %====================================================================================================
 \begin{frame}{Dia 1: Fundamentos e Prática com VHDL}
